@@ -5,7 +5,6 @@ let calculation = []
 
 function calculate (buttons) {
     const value = buttons.textContent
-    console.log(calculation.length)
     
     if (value === 'Clear') {
         calculation = [0]
@@ -49,18 +48,7 @@ buttons.forEach(buttons => {
 
 
 
-// const button = document.querySelectorAll('button')
-// const display = document.querySelector('.display')
 
-
-// function show (button) {
-//     const value = button.textContent
-//     display.textContent = value
-// }
-
-// button.forEach(button => {
-//     button.addEventListener('click', () => show(button))
-// })
 
 
 
